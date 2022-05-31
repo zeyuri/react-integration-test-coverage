@@ -9,6 +9,6 @@ module.exports = {
     "src/root.component.tsx",
     "src/knh-core.tsx",
   ],
-  reporter: ["json", "text"],
-  "report-dir": "./coverage/integration",
+  reporter: ["json", "text", "lcov"],
+  "report-dir": "./coverage",
 };
